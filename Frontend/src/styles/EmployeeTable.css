@@ -1,0 +1,84 @@
+/* Table Container */
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    background: url('https://example.com/employee-logo.png') no-repeat center center;
+    background-size: contain;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Table Styling */
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9); /* Mild background with slight transparency */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Header */
+  .employee-table thead {
+    background-color: #282c34; /* Dark background for header */
+    color: white;
+  }
+  
+  .employee-table th {
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Table Rows */
+  .employee-table tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f7f7f7; /* Light hover effect */
+  }
+  
+  /* Table Data */
+  .employee-table td {
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #333;
+    text-align: left;
+  }
+  
+  /* Action Buttons */
+  .action-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Edit Button */
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #a71d2a;
+  }
+  

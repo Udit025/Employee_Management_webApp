@@ -1,0 +1,47 @@
+/* Header container styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(235, 145, 145);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Title styling */
+  .header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Navigation links container */
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Individual link styling */
+  .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Active link styling */
+  .nav-link.active {
+    color: white;
+    background-color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for links */
+  .nav-link:hover {
+    color: white;
+    background-color: #0056b3;
+  }
+  
